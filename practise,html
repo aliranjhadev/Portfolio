@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="waqas.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/
+    font-awesome/6.2.0/css/all.min.css"
+     integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2
+     FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Roboto+Condensed:ital,wght@0,300;0,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+    
+</head>
+<body>
+    <!--Start header-->
+    <header class="stricky">
+        <a href="#" class="logo"><span>Waqas Ahmed</span></a>
+        <div class="bx-menu" id="menu-icon"></div> 
+        <ul class="nav">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <a href="#" class="bttn">Let ME!</a>
+    </header>
+        <!--Start home-->
+        <section class="home" id="home">
+<!---->
+            <div class = "left">
+                <img src="profile-removebg-preview.png" alt="" 
+                class = "center">
+            </div>
+<!---->
+            <div class="h-text">
+                <h4>Hello, My name is</h4>
+                <h1>Waqas <span>Ahmed</span></h1>
+                <h3>I'am a front-end Web Developer.</h3>
+                <div class="newslatter">
+                    <form>
+                       
+                        <input type="submit" id="submit" value="Download CV">
+                    </form>
+                </div>
+            </div>
+            <div class="b-text">
+                <h1><span>Web </span> Developer</h1>
+                <h3>HTML | CSS | JS | React</h3>
+            </div>
+        </section>
+       <!--Start about-->
+       <section class="about" id="about">
+        <div class="mn">
+    <img src="profile-removebg-preview.png">
+    <div class="about-text">
+   <h2>About Me</h2>
+   <h5>Developer <span>& Designer</span></h5>
+   <p>I am front end  developer.I provide clean code and pixel
+   perfect design.i also make the website more & more interactive with 
+   animation.I am front end developer.I provide clean code and pixel
+   perfect design.i also make the website more & more interactive with 
+   animation.A responsive design give to all asseced. </p>
+   <button type="button">Lets Talk</button>
+    </div>
+        </div>
+       </section>
+        <!----Services---->
+        <section class="services" id="services">
+    <div class="service">
+        <div class="title">
+           <h2>Services</h2>
+        </div>
+       
+         <div class="box">
+           <div class="card">
+               <i class="fa fa-bars"></i>
+               <h5>Web Development</h5>
+               <div class="pra">
+           <p>I am front end deveolper.I provide clean code and pixel
+            perfect design.i also make the website more & more interactive
+            with  animation.A responsive design give to all asseced.</p>
+       
+            <p style="text-align:center;">
+               <a href="#" class="button">Read More</a>
+            </p>
+               </div>
+           </div>
+       
+           <div class="card">
+               <i class="fas fa-user"></i>
+               <h5>Web Development</h5>
+               <div class="pra">
+           <p>I am front end deveolper.I provide clean code and pixel
+            perfect design.i also make the website more & more interactive
+            with  animation.A responsive design give to all asseced.</p>
+       
+            <p>
+               <a href="#" class="button">Read More</a>
+            </p>
+               </div>
+           </div>
+       
+           <div class="card">
+               <i class="far fa-bell"></i>
+               <h5>Web Development</h5>
+               <div class="pra">
+           <p>I am front end deveolper.I provide clean code and pixel
+            perfect design.I also make the website more & more interactive
+            with  animation.A responsive design give to all asseced.</p>
+       
+            <p style="text-align:center;">
+               <a href="#" class="button">Read More</a>
+            </p>
+               </div>
+           </div>
+        </section>
+         <!----About Skills---->
+    <section class="skills" id="skills">
+        <div class="heading">
+            <h2>Skills</h2>
+            <span>My Skills</span><br><br>
+        </div>
+          <!--skills contant-->
+          <div class="skill-container">
+            <div class="bar">
+                <!--box-1-->
+                <div class="bar-box">
+                    <h3>HTML</h3>
+                    <span>90%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent html-bar"></div>
+                </div>
+                 <!--box-2-->
+                 <div class="bar-box">
+                    <h3>CSS</h3>
+                    <span>85%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent css-bar"></div>
+                 </div>
+             <!--box-3-->
+             <div class="bar-box">
+                <h3>Javascript</h3>
+                <span>70%</span>
+                <div class="light-bar"></div>
+                <div class="percent js-bar"></div>
+            </div>
+                 <!--box-4-->
+                 <div class="bar-box">
+                    <h3>React</h3>
+                    <span>65%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent react-bar"></div>
+          </div>
+             
+        </div>
+            </section>
+            <!--start contact-->
+            <section class="contact" id="contact">
+                
+                <div id="about" class="container">
+                    <div style="text-align:center">
+                      <h2>Contact Us</h2>
+                      <p>Swing by for a cup of coffee, or leave us a message:</p>
+                    </div>
+                    <div class="row">
+                      <div class="column">
+                        <form action="/action_page.php">
+                          <label for="fname">First Name</label>
+                          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                          <label for="lname">Last Name</label>
+                          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                          <label for="subject">Subject</label>
+                          <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+                          <input type="submit" value="Submit">
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                
+            </section>
+            <!----Footer start---->
+     <footer>
+       <p>Waqas Ahmed </p>
+       <p>For more coding Html,CSS and other coding tutorial- please click on the link below
+        to subcribe my channel: </p>
+        <div class="social">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-telegram"></i></a>
+            <a href="#"><i class="fab fa-snapchat"></i></a>
+        </div>
+        <p class="end">Copy Right By Waqas Ahmed.</p>
+</footer>
+
+         </div>
+           </div>
+    </div>
+</body>
+</html>
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'josefin Sans', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    scroll-padding-top: 3.6rem;
+}
+
+:root{
+    --big-color: #101010;
+    --second-big-color: #191919;
+    --text-color: #fff;
+    --second-color: #c6c9d8bf;
+    --main-color: rgb(255, 7, 7);
+    --big-font: 3.4rem;
+    --h2-font: 4.3rem;
+    --p-font: 1.1rem;
+}
+
+body{
+    background: var(--big-color);
+    color: var(--text-color);
+}
+
+header{
+position: fixed;
+width: 100%;
+top: 0;
+right: 0;
+z-index: 1000;
+display: flex;
+align-items: center;
+justify-content: space-between;
+background: transparent;
+padding: 25px 15%;
+transition-duration: .3s;
+}
+.logo{
+    color: var(--text-color);
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.nav{
+    display: flex;
+}
+
+.nav li{
+    position: relative;
+}
+
+.nav a{
+    color: var(--text-color);
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 10px 20px;
+}
+
+.nav a::after{
+    content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background: var(--main-color);
+  left: 0;
+  bottom: -4px;
+  transition: ease .40s;
+}
+
+.nav a:hover:after{
+    width: 100%;
+}
+
+.bttn{
+ padding: 0 23px;
+ height: 45px;
+ display: inline-block;
+ line-height: 43px;
+ background-color: rgb(252, 9, 9);
+ border: none;
+ border-radius: 35px;
+ font-size: 15px;
+ font-weight: bold;
+ color:#f2f2f2;
+ letter-spacing: 1px;
+ transition: all .30s;
+}
+.bttn:hover{
+    transform: translateY(-5px);
+}
+
+/*  */
+header nav .left a{
+    color: white;
+    text-decoration: none;
+    margin-right: 8rem;
+    text-transform: uppercase;
+}
+header nav .left a:hover{
+color: rgb(80, 60, 80);
+text-decoration-line: underline;
+}   
+
+img {
+  width: 20%;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+/*  */
+
+
+.home{
+    height: 100vh;
+    width: 100%;
+    background-image: url('../waterdrops.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left top;
+      display: grid;
+   grid-template-columns: repeat(1, 1fr);
+   align-items: left;
+}
+
+.h-text{
+    position: absolute;
+    top: 200px;
+    left: 80px;
+}
+.b-text{
+    position: absolute;
+    top: 250px;
+    right: 80px;
+}
+.b-text h3{
+    margin-top: 20px;
+}
+.h-text h1{
+    padding: 20px 0 20px;
+    font-size: var(--big-font);
+}
+
+a span{
+color: white;
+}
+
+.h-text h3{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.h-text h4{
+    color: wheat;
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+
+.newslatter form{
+    width: 400px;
+    max-width: 100%;
+    position: relative;
+}
+.newslatter form input:first-child{
+display: inline-block;
+width: 100%;
+outline: none;
+padding: 14px 150px 16px 15px;
+border: 2px solid var(--main-color);
+border-radius: 30px;
+}
+
+.newslatter form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    background: var(--main-color);
+    color: var(--text-color);
+    padding: 12px 35px;
+    border-radius: 35px;
+    box-shadow: 0px 0px 6px #000,0px 0px 14px #868686;
+    cursor: pointer;
+    top: 6px;
+    right: 6px;
+}
+ 
+header.stricky{
+    padding: 12px 15%;
+    background: rgba(7, 230, 107, 0.6);
+}
+     
+ .about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: black;
+}
+h5 span{
+    color: red;
+}
+
+.about img{
+    height: auto;
+    width: 430px;
+}
+
+.about-text{
+    width: 550px;
+}
+
+.mn{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-text h2{
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+}
+
+.about-text h5{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 45px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+h1 span{
+    color: red;
+}
+
+.about-text p{
+    color: white;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+     
+
+.service{
+    background: #101010;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.title h2{
+    color: white;
+    font-size: 75px;
+    width: 1130px;
+    margin: 35px auto;
+    text-align: center;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.card{
+    height: 400px;
+    width: 350px;
+    padding: 30px 30px;
+    background: rgba(7, 230, 107, 0.6);
+    border-radius: 40px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 15px 20px;
+    color: red;
+}
+
+h5{
+    color: whitesmoke;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.pra p{
+    color: #fcfcfc;
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 27px;
+}
+
+.card .button{
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border: 2px solid black;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: .4s;   
+}
+
+.card .button:hover{
+    background-color: black;
+    border: 2px solid red;
+    cursor: pointer;   
+}
+
+
+button{
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+button:hover{
+    background-color: black;
+    border: 2px solid white;
+    cursor: pointer;
+}
+       <!--skill-->
+
+.skills{
+    text-align: center;
+    padding: 30px 20px;
+}
+.skills *{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.heading h2{
+    color: white;
+    font-size: 50px;
+    width: 1130px;
+    margin: 35px auto;
+    text-align: center;
+}
+
+span{
+    color: white;
+    font-size: 45px;
+    width: 1130px;
+    margin: 35px auto;
+    text-align: center;
+}
+
+.skill.container{
+    display: flex;
+    grid-template-columns: repeat(1,1fr);
+    align-items: center;
+    gap: 2rem;
+    margin-top: 4rem;
+}
+
+section{
+    background-color: black;
+   align-items: center;
+}
+.bar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.bar-box{
+    margin: 10px 20px;
+}
+.bar-box h3{
+    color: blue;
+}
+
+h3{
+    color: white;
+    align-items: center;
+}
+
+.heading h2{
+    color: blue;
+    text-align: center;
+    font-size: 40px;
+}
+
+
+/*   */
+
+.contact .container{
+    background-color: #000;
+    display: grid;
+    
+    align-items: center;
+    grid-gap: 3rem;
+} 
+
+/* Style inputs */
+.container input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+ .container input[type=submit] {
+    background-color: rgb(253, 4, 4);
+    color: white;
+    padding: 12px 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: rgb(255, 0, 0);
+    color: wheat;
+  }
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  .column img{
+    margin: 10px 20px;
+  }
+  
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .text-center{
+    text-align: center;
+  }
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p:nth-child(1){
+    font-size: 30px;
+    color: white;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+
+footer p:nth-child(2){
+    color: white;
+    font-size: 18px;
+    width: 500px;
+    text-align: center;
+    line-height: 26px;
+}
+
+.social{
+    display: flex;
+}
+
+.social a{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: red;
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.social a:hover{
+    transform: scale(1.3);
+    transition: .3s;
+}
+
+.end{
+    position: absolute;
+    color: whitesmoke;
+    bottom: 35px;
+    font-size: 20px;
+}
